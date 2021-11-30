@@ -1,4 +1,8 @@
 // helloWorld function 
-function helloWorld() {
+let helloWorld = () => {
     return "Hello, World!";
+}
+function double(num) {
+    return num * 2
+
 }

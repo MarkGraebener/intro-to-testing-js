@@ -13,3 +13,15 @@ describe('helloWorld', function() {
       expect(helloWorld()).not.toBe(undefined);
     });
 });
+
+describe("double", function() {
+    it('should return a number', function () {
+     expect(typeof double()).toBe("number")
+    });
+    it("should double the input number", function () {
+        expect(double(5)).toEqual(10)
+    })
+    it('should be a function', function () {
+        expect(typeof double).toBe("function")
+    });
+})
