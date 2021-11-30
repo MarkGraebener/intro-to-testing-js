@@ -1,6 +1,6 @@
 // helloWorld function 
-let helloWorld = () => {
-    return "Hello, World!";
+let helloWorld = (name) => {
+    return "Hello! " + name;
 }
 function double(num) {
     return num * 2
