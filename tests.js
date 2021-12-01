@@ -69,5 +69,12 @@ describe("isEven", () => {
     it('/(/) should return false', function () {
         expect(isEven()).toBe(false)
     });
-
 })
+ describe("isVowel", function () {
+     it('should return a boolean', function () {
+         expect(typeof isVowel()).toBe("boolean")
+     });
+     it(' /"a/" should return true', function () {
+         expect(isVowel("a")).toBe(true)
+     });
+ })

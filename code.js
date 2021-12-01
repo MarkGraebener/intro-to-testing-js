@@ -11,3 +11,15 @@ let isFive = (num) => {
 let isEven = (num) => {
     return num % 2 === 0;
 }
+
+function isVowel(letter) {
+    return letter.toLowerCase() === 'a' ||
+        letter.toLowerCase() === 'e' ||
+        letter.toLowerCase() === 'i' ||
+        letter.toLowerCase() === 'o' ||
+        letter.toLowerCase() === "u";
+
+}
+
+console.log(isVowel("F"))
+console.log(isVowel("A"));
